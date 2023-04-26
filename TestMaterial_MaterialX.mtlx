@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<materialx version="1.38">
+  <standard_surface name="Standard_surface" type="surfaceshader">
+    <input name="base" type="float" value="1" />
+    <input name="base_color" type="color3" value="0.0652869, 0.107168, 0.8" />
+    <input name="diffuse_roughness" type="float" value="0" />
+    <input name="metalness" type="float" value="1" />
+    <input name="specular" type="float" value="0" />
+    <input name="specular_color" type="color3" value="1, 1, 1" />
+    <input name="specular_roughness" type="float" value="0.36" />
+    <input name="specular_IOR" type="float" value="1.5" />
+    <input name="specular_anisotropy" type="float" value="0" />
+    <input name="specular_rotation" type="float" value="0" />
+  </standard_surface>
+  <surfacematerial name="mtlxsurfacematerial1" type="material">
+    <input name="surfaceshader" type="surfaceshader" nodename="Standard_surface" />
+  </surfacematerial>
+</materialx>
